@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Major+Mono+Display&family=Maven+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
+html {
+  font-family: Audiowide, sans-serif;
+}
+hr {
+  color: white;
+  size: 2px;
+}
+h1 {
+  font-family: Audiowide, sans-serif;
+  font-size: 40px;
+  color: white;
+}
+
+p {
+  font-family: Oswald, sans-serif;
+  font-size: 30px;
+  color: white;
+}
+
+a {
+  font-family: Audiowide, sans-serif;
+  font-size: 20px;
+  color: white;
+}
+
+body {
+  background-color: #16161d;
+  margin: 0;
+  padding: 0;
+}
+img {
+  border-radius: 50%;
+  margin: auto;
+}
+
+.left {
+  padding: 4px;
+  left: 0%;
+  width: 100%;
+}
+
+.right {
+  padding: 0;
+  size: 10px;
+  position: relative;
+  top: 5px;
+}
+
+.about {
+  position: absolute;
+  display: inline-block;
+  padding: auto;
+  margin-top: 250px;
+}
