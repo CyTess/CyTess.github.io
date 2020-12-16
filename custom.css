@@ -73,4 +73,8 @@ img {
 .videotext {
   padding: 35px;
   margin: auto;
+}.cloud {
+  position: relative;
+  right: 50px;
+  top: -120px;
 }
