@@ -78,7 +78,7 @@ img {
 }
 .cloud {
   position: relative;
-  top: 20px;
+  top: -30px;
   left: 100px;
 }
 .carousel-inner img {
