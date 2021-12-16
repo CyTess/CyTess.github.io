@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css"
+    rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1"
+    crossorigin="anonymous">
+    <link rel="stylesheet" href="custom.css">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/TweenMax.min.js"></script>
+    <title>Home</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+      <a class="navbar-brand" href="https://www.youtube.com/watch?v=h6DNdop6pD8"><img src="GLITCH.gif" alt="cytesslogo" width="260" height="50"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="animationpage.html">Animation</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="drawings.html">Drawings</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="aboutme.html">About Me!</a>
+          </li>
+
+        </ul>
+      </div>
+
+
+    </nav>
+  </body>
+  <body>
+    <section class="content">
+      <div class="container">
+        <div class="row">
+          <div class="col col-sm-4">
+            <div class="left">
+              <h1>Tesla Joy Rice</h1>
+              <p>An Animator</p>
+            </div>
+            <div class="right col-sm-2 float-2-left">
+              <img src="img/tesla Rice.png" alt="ME" style="size: 10px;" class="pfpimg">
+            </div>
+          </div>
+
+          <div class="about col-sm-5 offset-5 ">
+            <div class="center">
+              <h1 class="text-center">About Tesla Joy</h1>
+              <p class="text-center">Tesla Joy is a student studying
+              2D/3D animation, modeling, an illustrater, game art/designer and a web designer.</p>
+              <p class="text-center">Location: Austin, TX</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <script>
+        TweenMax.to('.left h1', 2, {
+          delay: .1,
+          x: 40,
+          ease: Circ.easeInOut
+        })
+        TweenMax.to('.left p', 2, {
+          delay: .5,
+          x: 40,
+          ease: Power2.easeInOut
+        })
+        TweenMax.from('.left h1', 2, {
+          x: -600,
+          ease: Circ.easeInOut
+        })
+
+        TweenMax.from('.left p', 2, {
+          x: -1400,
+          ease: Circ.easeInOut
+        })
+        TweenMax.to('.right img', 2, {
+          delay: .10,
+          x: 0,
+          ease: Circ.easeInOut
+        })
+        TweenMax.from('.right img', 2, {
+          x: -5000,
+          ease: Circ.easeInOut
+        })
+        TweenMax.to('.about h1', 2, {
+          delay: .5,
+          x: 0,
+          ease: Circ.easeInOut
+        })
+        TweenMax.from('.about h1', 2, {
+          x: 700,
+          ease: Circ.easeInOut
+        })
+        TweenMax.to('.about p', 2, {
+          delay: .5,
+          x: 0,
+          ease: Circ.easeInOut
+        })
+        TweenMax.from('.about p', 2, {
+          x: 900,
+          ease: Circ.easeInOut
+        })
+        /****Fade in****/
+      </script>
+    </section>
+    <section class="content">
+      <hr>
+      <h1 class="text-center">Social Media</h1>
+      <p class="text-center">click on the cloud for the links!</p>
+      <div class="row">
+        <div class="col">
+          <p class="text-center">Youtube</p>
+          <a href="https://www.youtube.com/channel/UC4B11hPHzWUxXc2QPfrgbjA"><img src="youtube.png" alt="" width="100px" class="cloud"></a>
+        </div>
+        <div class="col">
+          <p class="text-center">Twitch</p>
+          <a href="https://www.twitch.tv/cytess_"><img src="twitch.png" alt="" width="100px" class="cloud"></a>
+        </div>
+        <div class="col">
+          <p class="text-center">Instagram</p>
+          <a href="https://www.instagram.com/cytess_/"><img src="insta.png" alt="" width="100px" class="cloud"></a>
+        </div>
+        <div class="col">
+          <p class="text-center">Twitter</p>
+          <a href="https://twitter.com/Cytess_"><img src="twit.png" alt="" width="100px" class="cloud"></a>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
