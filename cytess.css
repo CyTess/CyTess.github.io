@@ -133,3 +133,31 @@ nav ul li a:hover::after{
     justify-content: center;
 
 }
+
+.containerpfp {
+    width: 100%;
+    height: 100vh;
+    background-image: url(Images/Tess/background.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.profile-box{
+    background: rgb(27, 27, 27);
+    text-align: center;
+    padding: 40px 90px;
+    color: #fff;
+    position: relative;
+    border-radius: 20px;
+}
+
+.profile-pic {
+    width: 150px;
+    border-radius: 50%;
+    background: rgb(7, 7, 7);
+    padding: 6px;
+
+}
